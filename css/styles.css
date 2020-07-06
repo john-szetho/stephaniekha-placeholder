@@ -1,0 +1,84 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    padding: 2rem;
+    top: 0;
+    left: 0;
+}
+
+/* TEXT PLACEMENT STYLING */
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+    text-align-last: justify;
+}
+/* END */
+
+h1 {
+    font-size: 6rem;
+}
+
+.container-left h1 {
+    padding-right: 2rem;
+}
+
+.site-bio {
+    font-size: 2.4rem;
+    padding-right: 1em;
+    text-indent: -4rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+
+
+/* MAIN */
+
+.main {
+    width: calc(100vh - 4rem);
+    height: calc(100vh - 4rem);
+}
+
+.main-container {
+    display: flex;
+    height: 100%;
+}
+
+.container-left {
+    position: relative;
+    width: 75%;
+    height: 100%;
+}
+
+.container-right {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    margin-left: 2rem;
+}
+
+.contact {
+    width: 100%;
+}
+
+.bottom {
+    bottom: 0;
+    position: absolute;
+}
+
+.border-left {
+    border-left: solid #333333 1px;
+    height: calc(100% + 4rem);
+    transform: translateY(-2rem);
+}
