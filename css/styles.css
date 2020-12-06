@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: 'Authentic 90', Arial, Helvetica, sans-serif;
+    font-family: 'Pantasia', 'Times New Roman', Times, serif;
     font-size: .84rem;
     letter-spacing: -0.125;
     line-height: 1.25;
@@ -55,20 +55,21 @@ h3 {
     font-size: 10rem;
 }
 
-.contact-links-toggle h3 {
+.contact-links-toggle {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
     display: inline-block;
-    margin-top: 1.1rem;
-    transition: .2s 1s;
+    transition: .2s .9s;
     opacity: 100%;
 }
 
-.contact-links-toggle h3:hover {
+.contact-links-toggle:hover {
     margin-left: 1rem;
     transition: .2s;
 }
 
 .active {
-    opacity: 50%;
+    opacity: 72%;
 }
 
 h1, h2, h3 {
@@ -78,7 +79,7 @@ h1, h2, h3 {
 }
 
 .bio {
-    font-family: 'Authentic 90 Condensed', Arial, Helvetica, sans-serif;
+    font-family: 'Authentic 90', Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
 }
 
@@ -109,12 +110,13 @@ h3 a:hover {
 }
 
 .with-tab {
+    font-family: 'Authentic 90', Arial, Helvetica, sans-serif;
     display: inline-block;
     width: 1.5rem;
 }
 
 .margin-top-1 {
-    margin-top: .5rem;
+    margin-top: .75rem;
 }
 
 .margin-btm-1 {
