@@ -167,7 +167,7 @@ h3 a:hover {
         margin-top: 3.6rem;
     }
 
-    .contact-links-toggle h3:hover {
+    .contact-links-toggle:hover {
         margin-left: initial;
     }
 
