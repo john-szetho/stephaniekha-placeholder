@@ -58,21 +58,23 @@ h3 {
 .contact-links-toggle h3 {
     display: inline-block;
     margin-top: 1.1rem;
-    transition: .2s;
+    transition: .2s 1s;
     opacity: 100%;
 }
 
 .contact-links-toggle h3:hover {
     margin-left: 1rem;
+    transition: .2s;
 }
 
 .active {
-    opacity: 75%;
+    opacity: 50%;
 }
 
 h1, h2, h3 {
     text-transform: uppercase;
     line-height: .9;
+    overflow: visible;
 }
 
 .bio {
@@ -153,6 +155,10 @@ h3 a:hover {
 
     .header h2 {
         margin-top: 3.6rem;
+    }
+
+    .contact-links-toggle h3:hover {
+        margin-left: initial;
     }
 
 }
