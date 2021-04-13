@@ -17,7 +17,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: .84rem;
-    letter-spacing: 0.65;
+    letter-spacing: -0.125;
     line-height: 1.25;
     
     padding: 1.2rem;
@@ -30,7 +30,6 @@ body {
 h1 {
     font-family: 'Authentic 90 Condensed', Arial, Helvetica, sans-serif;
     font-size: 2.8rem;
-    letter-spacing: -0.125;
 }
 
 h1 a {
@@ -96,6 +95,7 @@ h1, h2, h3 {
 a {
     text-decoration: none;
     color: #e6e6e6;
+    letter-spacing: 0.65;
 }
 
 a:hover {
@@ -123,6 +123,7 @@ h3 a:hover {
 
 .margin-top-1 {
     margin-top: .75rem;
+    letter-spacing: 0.65;
 }
 
 .margin-btm-1 {
