@@ -13,14 +13,9 @@
     src: url(../fonts/AUTHENTICSans-130.woff);
 }
 
-@font-face {
-    font-family: 'Pantasia';
-    src: url(../fonts/PantasiaNovusBeta6-RegularWeb.woff);
-}
-
 
 body {
-    font-family: 'Pantasia', 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: .84rem;
     letter-spacing: -0.125;
     line-height: 1.25;
@@ -42,7 +37,7 @@ h1 a {
 }
 
 h2 {
-    font-family: 'Pantasia', 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 3.2rem;
 }
 
@@ -93,7 +88,7 @@ h1, h2, h3 {
 }
 
 .contact-info {
-    font-family: 'Pantasia', 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a {
